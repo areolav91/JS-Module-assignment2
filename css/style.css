@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #ebebeb;
+}
+
+
+.box {
+    background-color: bisque;
+    margin:35px;
+    padding:1rem;
+    border: 1px solid black;
+    width: 20%;
+}
+
+.button {
+    background-color:darkgray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+  }
+
+
+.message {
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid grey;
+    color: grey;
+    text-align: center;
+}
+
+.message.error {
+    border-color: red;
+    color: white;
+    background: red;
+}
+
+.message.warning {
+    border-color: orange;
+    color: white;
+    background: orange;
+}
+
+.message.success {
+    border-color: green;
+    color: white;
+    background: green;
+}
